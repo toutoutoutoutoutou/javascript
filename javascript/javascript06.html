@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트 - 반복문</title>
+    <script>
+    var jum=[90,100,85,70,80,95];
+    var tot=0, avg;
+        for(var i=0;i<jum.length;i++){
+            document.write("<br>번호:"+(i+1)+", 점수:"+jum[i]);
+            tot+=jum[i];
+            console.log(tot);
+        }
+        avg=tot/jum.length;
+        document.write("<br>총점:"+tot+", 평균:"+avg);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
